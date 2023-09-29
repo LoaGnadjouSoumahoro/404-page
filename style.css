@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Josefin+Sans&family=Roboto&display=swap');
+
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.wrp{
+height: 100vh;
+background-color: #2222;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card{
+max-width: 460px;
+
+
+text-align: center;
+}
+.number-404{
+min-width: 158px;
+line-height: 153px;
+}
+.number-404 h1{
+    color: #2222;
+    font-size: 220px;
+    margin: 0;
+    font-weight: 700;
+    text-shadow: 2px 2px 0px #c9c9c9c9;
+}
+
+.number-404 h1 span{
+text-shadow: 2px 2px 0px #ffab00;
+}
+.number-404 p{
+color: #c9c9c9;
+font-size: 16px;
+font-weight: 400;
+margin-top: 0;
+margin-bottom: 15px;
+
+}
+.card a{
+    color: #c9c9c9;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-top: 2px solid #ff8700;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 700;
+    transition: 0.2s linear;
+    margin-top: 15px;
+
+}
+.card a{
+    width: 200px;
+    border-radius: 15px;
+    background-color: #ff8700;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+.card a:hover{
+color: #ffab00;
+border-color: #ffab00;
+}
+
